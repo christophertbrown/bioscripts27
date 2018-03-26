@@ -2,7 +2,7 @@
 
 from distutils.core import setup
 
-version = '0.01'
+version = '0.03'
 
 packages = ['ctbBio27']
 
@@ -11,7 +11,7 @@ scripts = ['ctbBio27/id2tax.py', 'ctbBio27/kegginfo.py',
 
 classifiers = ['Programming Language :: Python', 'Programming Language :: Python :: 2.7']
 
-requirements = ['tokyocabinet'],
+requirements = ['numpy'],
 
 setup(name='ctbBio27',
       author='Chris Brown',

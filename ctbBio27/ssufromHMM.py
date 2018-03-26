@@ -8,15 +8,15 @@ ctb@berkeley.edu
 """
 
 # python modules
-import sys
 import os
-from operator import itemgetter
+import sys
 import argparse
 from subprocess import Popen
+from operator import itemgetter
 
 # ctb modules
-from fasta import iterate_fasta as parse_fasta
-from rc import reverse_complement as rc
+from ctbBio27.fasta import iterate_fasta as parse_fasta
+from ctbBio27.rc import reverse_complement as rc
 
 def best_model(seq2hmm):
     """

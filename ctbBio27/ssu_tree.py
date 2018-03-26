@@ -5,8 +5,8 @@ script for making a quick 16S/18S rRNA gene tree
 """
 
 # python modules
-import sys
 import os
+import sys
 import argparse
 import subprocess
 from glob import glob as glob

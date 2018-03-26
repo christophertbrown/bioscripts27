@@ -4,9 +4,10 @@
 script for getting kegg functional analysis from fasta file with KOs in the header or a list of KOs
 """
 
-import sys
 import os
+import sys
 from tokyocabinet import hash
+
 from ctbBio27.fasta import iterate_fasta as parse_fasta
 
 keggpath = '%s/kegg' % (os.environ['databases'])

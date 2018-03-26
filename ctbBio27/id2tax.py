@@ -8,6 +8,7 @@ import os
 import sys
 import argparse
 from tokyocabinet import hash
+
 from ctbBio27.check import check as check
 
 # ncbi files

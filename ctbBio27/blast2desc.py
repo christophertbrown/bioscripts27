@@ -6,12 +6,13 @@ given a blast .tsv file, query fasta file, and
 database .tch or .fasta file
 """
 
-import sys
 import os
-import id2tax
-from check import check as check
+import sys
 from tokyocabinet import hash
-from fasta import iterate_fasta as parse_fasta
+
+import ctbBio27.id2tax
+from ctbBio27.check import check as check
+from ctbBio27.fasta import iterate_fasta as parse_fasta
 
 taxtch = True # use to get tax descriptions using tch files
 

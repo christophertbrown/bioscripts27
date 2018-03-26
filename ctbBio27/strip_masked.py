@@ -5,10 +5,11 @@ script for stripping out masked sequences if the masked sequence
 is above a specified length
 """
 
-import sys
 import os
-from fasta import iterate_fasta as parse_fasta
+import sys
 import argparse
+
+from ctbBio27.fasta import iterate_fasta as parse_fasta
 
 def parse_masked(seq, min_len):
     """

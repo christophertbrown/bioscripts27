@@ -4,10 +4,11 @@
 script for turning a fasta file into a tch file
 """
 
-import sys
 import os
-import fasta as fasta_parser
+import sys
 from tokyocabinet import hash
+
+import ctbBio27.fasta as fasta_parser
 
 def tch(fasta):
     tch = '%s.tch' % (fasta)

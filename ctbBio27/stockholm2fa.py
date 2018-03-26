@@ -4,8 +4,8 @@
 script for converting a stockholm formatted alignment to fasta
 """
 
-import sys
 import os
+import sys
 
 def stock2fa(stock):
     """

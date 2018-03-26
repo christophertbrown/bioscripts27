@@ -1,14 +1,15 @@
 #!/usr/bin/python2.7
 
 """
-script for searching a query fasta against a database using either 
+script for searching a query fasta against a database using either
 usearch or blast
 """
 
-import sys
 import os
+import sys
 import argparse
-from fasta import iterate_fasta as parse_fasta
+
+from ctbBio27.fasta import iterate_fasta as parse_fasta
 
 def check_type(fasta):
     nucl = ['A', 'T', 'G', 'C']

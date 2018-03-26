@@ -4,14 +4,14 @@
 script for quickly running FastTree and raxml
 """
 
-import sys
 import os
+import sys
 import random
 import argparse
 from subprocess import Popen
 import string as string_gen
 
-from fasta import iterate_fasta as parse_fasta
+from ctbBio27.fasta import iterate_fasta as parse_fasta
 
 def check_type(fasta):
     nucl = ['A', 'T', 'G', 'C']
