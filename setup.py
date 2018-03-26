@@ -6,7 +6,8 @@ version = '0.01'
 
 packages = ['ctbBio27']
 
-scripts = ['ctbBio27/id2tax.py', 'ctbBio27/kegginfo.py', 'ctbBio27/ssu_tree.py']
+scripts = ['ctbBio27/id2tax.py', 'ctbBio27/kegginfo.py',
+        'ctbBio27/ssu_tree.py', 'ctbBio27/blast2desc.py']
 
 classifiers = ['Programming Language :: Python', 'Programming Language :: Python :: 2.7']
 
