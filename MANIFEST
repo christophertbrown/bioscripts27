@@ -9,6 +9,7 @@ ctbBio27/kegginfo.py
 ctbBio27/nr_fasta.py
 ctbBio27/numblast.py
 ctbBio27/rax.py
+ctbBio27/rc.py
 ctbBio27/search.py
 ctbBio27/ssu_tree.py
 ctbBio27/ssufromHMM.py

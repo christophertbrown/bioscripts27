@@ -2,7 +2,7 @@
 
 some useful scripts for working with genomics and sequencing data that are stuck in the past (python 2.7)
 
-see also: ["bioscripts"](https://github.com/christophertbrown/bioscripts)
+see also: [bioscripts](https://github.com/christophertbrown/bioscripts)
 
 # installation
 
